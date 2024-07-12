@@ -153,8 +153,100 @@ height: 200px;
 margin-bottom: 10px;
 }
 
-.cardContent .card .btn:hover{
+.cardContent .card .btn:hover, .addOwn .card .btn:hover{
 background-color: #800080;
 }
 
+
+
+/* Testomonial css  */
+
+
+.testimonial-section {
+  width: 80%;
+  background-color: #f2f5ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.testimonial-content {
+  margin-bottom: 20px;
+}
+.audio-player {
+  background-color: #e5dbf7;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+audio {
+  width: 90%;
+}
+.audio-player img {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+/* community section css  */
+.community {
+  background-color: #F7FDFF;
+}
+
+.comimuny-section{
+  width: 80%;
+  margin-top: 15px;
+}
+
+.imgOne{
+  width: 50%;
+}
+
+.footer{
+  margin-top: 1rem;
+}
+
+.footer h5{
+  font-weight: bold;
+}
+
+.footer li{
+  margin-bottom: 7px;
+}
+
+
+
+.footer a{
+  text-decoration: none;
+  color: #08090A;
+  margin-bottom: 7px;
+}
+
+.footer .form-control{
+  height: 40px;
+}
+
+.footer .btn-outline-success{
+  height: 40px;
+  font-size: 10px;
+}
+
+.footer .btn-outline-success:hover{
+  background-color: #800080;
+}
+
+.footer-bootom{
+  background-color: #F7F5F9;
+  height: 50px;
+  border: 1px solid #e6e0ec;
+}
 
